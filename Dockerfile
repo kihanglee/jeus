@@ -1,7 +1,7 @@
 FROM tmaxsoftofficial/jeus:8.1.105067-jdk8-openjdk
 USER root
 
-#COPY domain.xml /usr/local/jeus/domains/
+COPY ROOT.war /root/app/
 #
 RUN mkdir /root/logs
 RUN chown -R 1000710000:root /root/*  && chmod -R 777 /root/*
