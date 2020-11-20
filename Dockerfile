@@ -5,7 +5,7 @@ COPY ROOT.war /root/app/
 COPY domain.xml /root/jeus8/domains/domain1/config/domain.xml
 
 #
-RUN mkdir /root/logs
+#RUN mkdir /root/logs
 RUN rm -rf /root/jeus8/domains/domain1/servers/*
 RUN chown -R 1000710000:root /root/*  && chmod -R 777 /root/*
 #
