@@ -374,7 +374,7 @@
         <deployed-application>
             <id>apptest</id>
             <path>/root/app/ROOT.war</path>
-            <type>EAR</type>
+            <type>WAR</type>
             <target-all-servers>true</target-all-servers>
             <classloading>ISOLATED</classloading>
             <use-fast-deploy>false</use-fast-deploy>
