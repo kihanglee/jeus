@@ -1,4 +1,4 @@
-FROM tmaxsoftofficial/jeus:8.1.105067-jdk8-openjdk
+FROM jeus:8.1.105067-jdk8-openjdk
 USER root
 
 COPY ROOT.war /root/app/
