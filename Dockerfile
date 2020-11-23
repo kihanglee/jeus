@@ -3,6 +3,7 @@ USER root
 
 COPY ROOT.war /root/app/
 COPY domain.xml /root/jeus8/domains/domain1/config/domain.xml
+COPY check_process.sh /root/jeus8/bin/check_process.sh
 
 #
 #RUN mkdir /root/logs
