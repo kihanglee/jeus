@@ -7,8 +7,8 @@ COPY domain.xml /root/jeus8/domains/domain1/config/domain.xml
 #
 #RUN mkdir /root/logs
 RUN rm -rf /root/jeus8/domains/domain1/servers/*
-RUN chown -R 1000710000:root /root/*  && chmod -R 777 /root/*
+RUN chown -R 1000590000:root /root/*  && chmod -R 777 /root/*
 #
-USER 1000710000
+USER 1000590000
 #
 EXPOSE 8080
